@@ -1,0 +1,55 @@
+@media (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .container header {
+        width: 100%;
+    }
+
+    .container header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container header #input-search,
+    .container header #btn-search {
+        width: 100%;
+    }
+
+    .container .profile-data .info .data {
+        padding: 20px;
+    }
+
+    .container .profile-data .repositories-info span {
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 5px;
+        top: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        padding: 15% 0;
+    }
+
+    .container .profile-data .info img {
+        margin-bottom: 20px;
+    }
+
+    .container .profile-data .info img,
+    .container .profile-data .info .data {
+        width: 100%;
+        padding: 0;
+    }
+
+    .container .profile-data .repositories-info span {
+        font-size: 10px;
+    }
+}
